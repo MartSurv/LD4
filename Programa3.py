@@ -2,7 +2,7 @@ import json
 
 class Employee:
 
-    raise_amt = 1.04
+    __raise_amt = 1.04
 
     def __init__(self, first, last, pay, **kwargs):
         self.first = first
@@ -11,7 +11,7 @@ class Employee:
         self.pay = int(pay)
 
     def apply_raise(self):
-        self.pay = int(self.pay * self.raise_amt)
+        self.pay = int(self.pay * self.__raise_amt)
 
     def toJSON(self):
         return json.dumps(self, default=lambda o: o.__dict__, sort_keys=False)
@@ -43,7 +43,7 @@ class Employee:
 
 class Developer(Employee):
 
-    raise_amt = 1.05
+    __raise_amt = 1.05
 
     def __init__(self, first, last, pay, prog_lang, **kwargs):
         super().__init__(first, last, pay, **kwargs)
@@ -51,7 +51,7 @@ class Developer(Employee):
 
 class Manager(Employee):
 
-    raise_amt = 1.08
+    __raise_amt = 1.08
 
     def __init__(self, first, last, pay, employees=None, **kwargs):
         super().__init__(first, last, pay, **kwargs)
