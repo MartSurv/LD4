@@ -1,12 +1,5 @@
 [
     {
-        "first": "Ivan",
-        "last": "Herrera",
-        "email": "Ivan.Herrera@companyemail.com",
-        "pay": 60000,
-        "prog_lang": "JavaScript"
-    },
-    {
         "first": "Niam",
         "last": "Blundell",
         "email": "Niam.Blundell@companyemail.com",
@@ -19,5 +12,12 @@
         "email": "Nathan.Vo@companyemail.com",
         "pay": 80000,
         "prog_lang": "Python"
+    },
+    {
+        "first": "Ivan",
+        "last": "Herrera",
+        "email": "Ivan.Herrera@companyemail.com",
+        "pay": 63000,
+        "prog_lang": "JavaScript"
     }
 ]

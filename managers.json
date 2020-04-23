@@ -1,27 +1,5 @@
 [
     {
-        "email": "Markus.May@companyemail.com",
-        "first": "Markus",
-        "last": "May",
-        "pay": 90000,
-        "employees": [
-            {
-                "first": "Niam",
-                "last": "Blundell",
-                "email": "Niam.Blundell@companyemail.com",
-                "pay": 65000,
-                "prog_lang": "PHP"
-            },
-            {
-                "first": "Ivan",
-                "last": "Herrera",
-                "email": "Ivan.Herrera@companyemail.com",
-                "pay": 60000,
-                "prog_lang": "JavaScript"
-            }
-        ]
-    },
-    {
         "first": "Prince",
         "last": "Carver",
         "email": "Prince.Carver@companyemail.com",
@@ -33,6 +11,21 @@
                 "email": "Nathan.Vo@companyemail.com",
                 "pay": 80000,
                 "prog_lang": "Python"
+            }
+        ]
+    },
+    {
+        "first": "Markus",
+        "last": "May",
+        "email": "Markus.May@companyemail.com",
+        "pay": 90000,
+        "employees": [
+            {
+                "first": "Ivan",
+                "last": "Herrera",
+                "email": "Ivan.Herrera@companyemail.com",
+                "pay": 60000,
+                "prog_lang": "JavaScript"
             }
         ]
     }
