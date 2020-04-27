@@ -19,5 +19,12 @@
         "email": "Ivan.Herrera@companyemail.com",
         "pay": 63000,
         "prog_lang": "JavaScript"
+    },
+    {
+        "first": "Elsie",
+        "last": "Rankin",
+        "email": "Elsie.Rankin@companyemail.com",
+        "pay": 80000,
+        "prog_lang": "Java"
     }
 ]

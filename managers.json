@@ -4,6 +4,11 @@
         "last": "Carver",
         "email": "Prince.Carver@companyemail.com",
         "pay": 100000,
+        "prog_lang": [
+            "Python",
+            "Django",
+            "MongoDB"
+        ],
         "employees": [
             {
                 "first": "Nathan",
@@ -19,6 +24,11 @@
         "last": "May",
         "email": "Markus.May@companyemail.com",
         "pay": 90000,
+        "prog_lang": [
+            "Java",
+            "JavaScript",
+            "React"
+        ],
         "employees": [
             {
                 "first": "Ivan",
@@ -28,5 +38,27 @@
                 "prog_lang": "JavaScript"
             }
         ]
+    },
+    {
+        "first": "Amara",
+        "last": "Sanchez",
+        "email": "Amara.Sanchez@companyemail.com",
+        "pay": 90000,
+        "prog_lang": [
+            "Swift",
+            "Objective C"
+        ],
+        "employees": []
+    },
+    {
+        "first": "Eesha",
+        "last": "Moore",
+        "email": "Eesha.Moore@companyemail.com",
+        "pay": 95000,
+        "prog_lang": [
+            "JavaScript",
+            "Node.js"
+        ],
+        "employees": []
     }
 ]
